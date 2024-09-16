@@ -1,0 +1,255 @@
+﻿  CppCLR_WinFormsProject.cpp
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(638,144): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(638,123): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(638,88): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(638,36): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(639,73): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(639,56): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(644,69): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(644,37): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(645,87): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(645,36): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(661,70): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(661,38): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(662,68): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(662,37): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(666,70): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(666,38): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(667,68): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(667,37): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(675,148): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(675,127): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(675,92): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(675,39): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(676,76): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(676,59): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(683,148): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(683,127): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(683,92): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(683,39): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(684,75): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(684,58): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(688,68): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(688,37): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(689,68): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(689,37): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(693,70): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(693,38): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(694,68): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(694,37): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(705,69): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(705,37): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(706,67): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(706,36): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(710,69): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(710,37): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(711,67): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(711,36): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(720,148): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(720,127): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(720,92): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(720,39): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(721,75): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(721,58): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(725,70): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(725,38): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(726,68): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(726,37): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(742,70): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(742,38): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(743,68): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(743,37): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(754,148): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(754,127): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(754,92): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(754,39): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(755,76): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(755,59): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(768,44): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(768,16): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(769,44): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(769,16): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(773,45): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(773,16): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(774,45): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(774,16): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(778,47): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(778,19): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(779,47): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(779,19): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(783,48): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(783,19): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(784,19): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(590,45): warning C4101: S_: неиспользованная локальная переменная
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(590,32): warning C4101: NA: неиспользованная локальная переменная
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+C:\Users\rulen111\source\repos\lab_2_1_forms\lab_2_1_forms\Form1.h(590,29): warning C4101: S: неиспользованная локальная переменная
+  (компиляция исходного файла "CppCLR_WinFormsProject.cpp")
+  
+  AssemblyInfo.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  lab_2_1_forms.vcxproj -> C:\Users\rulen111\source\repos\lab_2_1_forms\x64\Debug\lab_2_1_forms.exe
