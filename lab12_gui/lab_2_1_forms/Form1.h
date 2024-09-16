@@ -7,7 +7,7 @@
 
 namespace CppCLRWinFormsProject {
 
-	// Ïîäêëþ÷åíèå íåîáõîäèìûõ ïðîñòðàíñòâ èìåí
+	// ÐŸÐ¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ðµ Ð½ÐµÐ¾Ð±Ñ…Ð¾Ð´Ð¸Ð¼Ñ‹Ñ… Ð¿Ñ€Ð¾ÑÑ‚Ñ€Ð°Ð½ÑÑ‚Ð² Ð¸Ð¼ÐµÐ½
 	using namespace System;
 	using namespace System::ComponentModel;
 	using namespace System::Collections;
@@ -17,7 +17,7 @@ namespace CppCLRWinFormsProject {
 	using namespace System::Drawing::Drawing2D;
 	using namespace System::Drawing::Imaging;
 
-	// Îïèñàíèå êëàññà Ôîðìà
+	// ÐžÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ ÐºÐ»Ð°ÑÑÐ° Ð¤Ð¾Ñ€Ð¼Ð°
 	public ref class Form1 : public System::Windows::Forms::Form
 	{
 	public:
@@ -35,7 +35,7 @@ namespace CppCLRWinFormsProject {
 			}
 		}
 	
-	// Îïðåäåëåíèå ýëåìåíòîâ ôîðìû
+	// ÐžÐ¿Ñ€ÐµÐ´ÐµÐ»ÐµÐ½Ð¸Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ñ„Ð¾Ñ€Ð¼Ñ‹
 	private: 
 		System::Windows::Forms::Button^ button1;
 		System::Windows::Forms::Button^ button2;
@@ -76,8 +76,8 @@ namespace CppCLRWinFormsProject {
 
 	
 	public: 
-		// Äëÿ ñâÿçè ïåðåìåííûõ ìåæäó ìåòîäàìè êëàññà
-		// ýòè ýëåìåíòû èìåþò òèï public
+		// Ð”Ð»Ñ ÑÐ²ÑÐ·Ð¸ Ð¿ÐµÑ€ÐµÐ¼ÐµÐ½Ð½Ñ‹Ñ… Ð¼ÐµÐ¶Ð´Ñƒ Ð¼ÐµÑ‚Ð¾Ð´Ð°Ð¼Ð¸ ÐºÐ»Ð°ÑÑÐ°
+		// ÑÑ‚Ð¸ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ Ð¸Ð¼ÐµÑŽÑ‚ Ñ‚Ð¸Ð¿ public
 		System::Windows::Forms::TextBox^ textBoxSH_;
 		System::Windows::Forms::TextBox^ textBoxSH;
 		System::Windows::Forms::TextBox^ textBoxSF_;
@@ -88,7 +88,7 @@ namespace CppCLRWinFormsProject {
 		System::Windows::Forms::TextBox^ textBoxS_;
 
 #pragma region Windows Form Designer generated code
-		// Èíèöèàëèçàöèÿ ýëåìåíòîâ ôîðìû
+		// Ð˜Ð½Ð¸Ñ†Ð¸Ð°Ð»Ð¸Ð·Ð°Ñ†Ð¸Ñ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ñ„Ð¾Ñ€Ð¼Ñ‹
 		void InitializeComponent(void)
 		{
 			this->button1 = (gcnew System::Windows::Forms::Button());
@@ -142,7 +142,7 @@ namespace CppCLRWinFormsProject {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(100, 23);
 			this->button1->TabIndex = 2;
-			this->button1->Text = L"Ðàñ÷åò";
+			this->button1->Text = L"Ð Ð°ÑÑ‡ÐµÑ‚";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &Form1::button1_Click);
 			// 
@@ -160,7 +160,7 @@ namespace CppCLRWinFormsProject {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(43, 13);
 			this->label1->TabIndex = 2;
-			this->label1->Text = L"R1, ìì";
+			this->label1->Text = L"R1, Ð¼Ð¼";
 			// 
 			// label2
 			// 
@@ -169,7 +169,7 @@ namespace CppCLRWinFormsProject {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(43, 13);
 			this->label2->TabIndex = 4;
-			this->label2->Text = L"R2, ìì";
+			this->label2->Text = L"R2, Ð¼Ð¼";
 			// 
 			// textBoxR2
 			// 
@@ -185,7 +185,7 @@ namespace CppCLRWinFormsProject {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(35, 13);
 			this->label3->TabIndex = 6;
-			this->label3->Text = L"d, ìì";
+			this->label3->Text = L"d, Ð¼Ð¼";
 			// 
 			// textBoxD
 			// 
@@ -201,7 +201,7 @@ namespace CppCLRWinFormsProject {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(37, 13);
 			this->label4->TabIndex = 8;
-			this->label4->Text = L"D, ìì";
+			this->label4->Text = L"D, Ð¼Ð¼";
 			// 
 			// textBoxH1
 			// 
@@ -218,7 +218,7 @@ namespace CppCLRWinFormsProject {
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(43, 13);
 			this->label5->TabIndex = 10;
-			this->label5->Text = L"H2, ìì";
+			this->label5->Text = L"H2, Ð¼Ð¼";
 			this->label5->Visible = false;
 			// 
 			// textBoxH2
@@ -279,7 +279,7 @@ namespace CppCLRWinFormsProject {
 			this->groupBox1->Size = System::Drawing::Size(649, 234);
 			this->groupBox1->TabIndex = 15;
 			this->groupBox1->TabStop = false;
-			this->groupBox1->Text = L"Êîíñòðóêòèâíûå ïàðàìåòðû";
+			this->groupBox1->Text = L"ÐšÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¸Ð²Ð½Ñ‹Ðµ Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ñ‹";
 			// 
 			// textBoxNA
 			// 
@@ -318,7 +318,7 @@ namespace CppCLRWinFormsProject {
 			this->label18->Name = L"label18";
 			this->label18->Size = System::Drawing::Size(36, 13);
 			this->label18->TabIndex = 21;
-			this->label18->Text = L"S, ìì";
+			this->label18->Text = L"S, Ð¼Ð¼";
 			this->label18->Visible = false;
 			// 
 			// button2
@@ -327,7 +327,7 @@ namespace CppCLRWinFormsProject {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(100, 23);
 			this->button2->TabIndex = 20;
-			this->button2->Text = L"Õîä ëó÷åé";
+			this->button2->Text = L"Ð¥Ð¾Ð´ Ð»ÑƒÑ‡ÐµÐ¹";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &Form1::button2_Click);
 			// 
@@ -338,7 +338,7 @@ namespace CppCLRWinFormsProject {
 			this->label12->Name = L"label12";
 			this->label12->Size = System::Drawing::Size(75, 13);
 			this->label12->TabIndex = 19;
-			this->label12->Text = L"ïðåëîìëåíèÿ";
+			this->label12->Text = L"Ð¿Ñ€ÐµÐ»Ð¾Ð¼Ð»ÐµÐ½Ð¸Ñ";
 			// 
 			// label11
 			// 
@@ -347,7 +347,7 @@ namespace CppCLRWinFormsProject {
 			this->label11->Name = L"label11";
 			this->label11->Size = System::Drawing::Size(68, 13);
 			this->label11->TabIndex = 18;
-			this->label11->Text = L"Ïîêàçàòåëü";
+			this->label11->Text = L"ÐŸÐ¾ÐºÐ°Ð·Ð°Ñ‚ÐµÐ»ÑŒ";
 			// 
 			// label10
 			// 
@@ -356,7 +356,7 @@ namespace CppCLRWinFormsProject {
 			this->label10->Name = L"label10";
 			this->label10->Size = System::Drawing::Size(101, 13);
 			this->label10->TabIndex = 17;
-			this->label10->Text = L"Ñâåòîâîé äèàìåòð";
+			this->label10->Text = L"Ð¡Ð²ÐµÑ‚Ð¾Ð²Ð¾Ð¹ Ð´Ð¸Ð°Ð¼ÐµÑ‚Ñ€";
 			// 
 			// label9
 			// 
@@ -365,7 +365,7 @@ namespace CppCLRWinFormsProject {
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(107, 13);
 			this->label9->TabIndex = 16;
-			this->label9->Text = L"Îñåâîå ðàññòîÿíèå";
+			this->label9->Text = L"ÐžÑÐµÐ²Ð¾Ðµ Ñ€Ð°ÑÑÑ‚Ð¾ÑÐ½Ð¸Ðµ";
 			// 
 			// label8
 			// 
@@ -374,7 +374,7 @@ namespace CppCLRWinFormsProject {
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(96, 13);
 			this->label8->TabIndex = 15;
-			this->label8->Text = L"Ðàäèóñ êðèâèçíû";
+			this->label8->Text = L"Ð Ð°Ð´Ð¸ÑƒÑ ÐºÑ€Ð¸Ð²Ð¸Ð·Ð½Ñ‹";
 			// 
 			// groupBox2
 			// 
@@ -398,7 +398,7 @@ namespace CppCLRWinFormsProject {
 			this->groupBox2->Size = System::Drawing::Size(649, 409);
 			this->groupBox2->TabIndex = 16;
 			this->groupBox2->TabStop = false;
-			this->groupBox2->Text = L"Ïàðàêñèàëüíûå õàðàêòåðèñòèêè è õîä ëó÷åé";
+			this->groupBox2->Text = L"ÐŸÐ°Ñ€Ð°ÐºÑÐ¸Ð°Ð»ÑŒÐ½Ñ‹Ðµ Ñ…Ð°Ñ€Ð°ÐºÑ‚ÐµÑ€Ð¸ÑÑ‚Ð¸ÐºÐ¸ Ð¸ Ñ…Ð¾Ð´ Ð»ÑƒÑ‡ÐµÐ¹";
 			// 
 			// label20
 			// 
@@ -408,7 +408,7 @@ namespace CppCLRWinFormsProject {
 			this->label20->Name = L"label20";
 			this->label20->Size = System::Drawing::Size(38, 13);
 			this->label20->TabIndex = 26;
-			this->label20->Text = L"S\', ìì";
+			this->label20->Text = L"S\', Ð¼Ð¼";
 			this->label20->Visible = false;
 			// 
 			// textBoxS_
@@ -436,7 +436,7 @@ namespace CppCLRWinFormsProject {
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(46, 13);
 			this->label6->TabIndex = 23;
-			this->label6->Text = L"SH\', ìì";
+			this->label6->Text = L"SH\', Ð¼Ð¼";
 			// 
 			// textBoxSH_
 			// 
@@ -453,7 +453,7 @@ namespace CppCLRWinFormsProject {
 			this->label13->Name = L"label13";
 			this->label13->Size = System::Drawing::Size(44, 13);
 			this->label13->TabIndex = 21;
-			this->label13->Text = L"SH, ìì";
+			this->label13->Text = L"SH, Ð¼Ð¼";
 			// 
 			// label14
 			// 
@@ -462,7 +462,7 @@ namespace CppCLRWinFormsProject {
 			this->label14->Name = L"label14";
 			this->label14->Size = System::Drawing::Size(44, 13);
 			this->label14->TabIndex = 19;
-			this->label14->Text = L"SF\', ìì";
+			this->label14->Text = L"SF\', Ð¼Ð¼";
 			// 
 			// textBoxSH
 			// 
@@ -487,7 +487,7 @@ namespace CppCLRWinFormsProject {
 			this->label16->Name = L"label16";
 			this->label16->Size = System::Drawing::Size(37, 13);
 			this->label16->TabIndex = 15;
-			this->label16->Text = L"F\', ìì";
+			this->label16->Text = L"F\', Ð¼Ð¼";
 			// 
 			// textBoxF_
 			// 
@@ -504,7 +504,7 @@ namespace CppCLRWinFormsProject {
 			this->label17->Name = L"label17";
 			this->label17->Size = System::Drawing::Size(35, 13);
 			this->label17->TabIndex = 13;
-			this->label17->Text = L"F, ìì";
+			this->label17->Text = L"F, Ð¼Ð¼";
 			// 
 			// label15
 			// 
@@ -513,7 +513,7 @@ namespace CppCLRWinFormsProject {
 			this->label15->Name = L"label15";
 			this->label15->Size = System::Drawing::Size(42, 13);
 			this->label15->TabIndex = 17;
-			this->label15->Text = L"SF, ìì";
+			this->label15->Text = L"SF, Ð¼Ð¼";
 			// 
 			// textBoxF
 			// 
@@ -539,7 +539,7 @@ namespace CppCLRWinFormsProject {
 			this->Controls->Add(this->groupBox2);
 			this->Controls->Add(this->groupBox1);
 			this->Name = L"Form1";
-			this->Text = L"Ðàñ÷åò ëèíçû";
+			this->Text = L"Ð Ð°ÑÑ‡ÐµÑ‚ Ð»Ð¸Ð½Ð·Ñ‹";
 			this->Load += gcnew System::EventHandler(this, &Form1::Form1_Load);
 			this->groupBox1->ResumeLayout(false);
 			this->groupBox1->PerformLayout();
@@ -552,14 +552,14 @@ namespace CppCLRWinFormsProject {
 		}
 
 #pragma endregion
-	// Ðåàëèçàöèÿ ìåòîäîâ ôîðìû
-	// Ñèñòåìíûé ìåòîä
+	// Ð ÐµÐ°Ð»Ð¸Ð·Ð°Ñ†Ð¸Ñ Ð¼ÐµÑ‚Ð¾Ð´Ð¾Ð² Ñ„Ð¾Ñ€Ð¼Ñ‹
+	// Ð¡Ð¸ÑÑ‚ÐµÐ¼Ð½Ñ‹Ð¹ Ð¼ÐµÑ‚Ð¾Ð´
 	private: System::Void Form1_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
 
-	// Íàæàòèå íà êíîïêó "Ðàñ÷åò"
+	// ÐÐ°Ð¶Ð°Ñ‚Ð¸Ðµ Ð½Ð° ÐºÐ½Ð¾Ð¿ÐºÑƒ "Ð Ð°ÑÑ‡ÐµÑ‚"
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
-		// Ñîçäàåì ýêçåìïëÿð ëèíçû è çàäàåì åå õàðàêòåðèñòèêè èç ñîîòâåòñòâóþùèõ ïîëåé ôîðìû
+		// Ð¡Ð¾Ð·Ð´Ð°ÐµÐ¼ ÑÐºÐ·ÐµÐ¼Ð¿Ð»ÑÑ€ Ð»Ð¸Ð½Ð·Ñ‹ Ð¸ Ð·Ð°Ð´Ð°ÐµÐ¼ ÐµÐµ Ñ…Ð°Ñ€Ð°ÐºÑ‚ÐµÑ€Ð¸ÑÑ‚Ð¸ÐºÐ¸ Ð¸Ð· ÑÐ¾Ð¾Ñ‚Ð²ÐµÑ‚ÑÑ‚Ð²ÑƒÑŽÑ‰Ð¸Ñ… Ð¿Ð¾Ð»ÐµÐ¹ Ñ„Ð¾Ñ€Ð¼Ñ‹
 		Lens lens1;
 
 		lens1.SetThickness(System::Convert::ToDouble(this->textBoxD->Text, System::Globalization::CultureInfo::GetCultureInfo("en-US")));
@@ -571,11 +571,11 @@ namespace CppCLRWinFormsProject {
 		lens1.AccessSurface2().SetR(System::Convert::ToDouble(this->textBoxR2->Text, System::Globalization::CultureInfo::GetCultureInfo("en-US")));
 		lens1.AccessSurface2().SetH(System::Convert::ToDouble(this->textBoxH1->Text, System::Globalization::CultureInfo::GetCultureInfo("en-US")));
 
-		// Ñ÷èòàåì ïàðàêñèàëüíûå õàðàêòåðèñòèêè
+		// Ð¡Ñ‡Ð¸Ñ‚Ð°ÐµÐ¼ Ð¿Ð°Ñ€Ð°ÐºÑÐ¸Ð°Ð»ÑŒÐ½Ñ‹Ðµ Ñ…Ð°Ñ€Ð°ÐºÑ‚ÐµÑ€Ð¸ÑÑ‚Ð¸ÐºÐ¸
 		Paraxial paraxial;
 		lens1.CalculateParaxial(paraxial);
 
-		// Âûâîäèì ïàðàêñèàëüíûå õàðàêòåðèñòèêè â ñîîòâåòñòâóþùèå ïîëÿ ôîðìû
+		// Ð’Ñ‹Ð²Ð¾Ð´Ð¸Ð¼ Ð¿Ð°Ñ€Ð°ÐºÑÐ¸Ð°Ð»ÑŒÐ½Ñ‹Ðµ Ñ…Ð°Ñ€Ð°ÐºÑ‚ÐµÑ€Ð¸ÑÑ‚Ð¸ÐºÐ¸ Ð² ÑÐ¾Ð¾Ñ‚Ð²ÐµÑ‚ÑÑ‚Ð²ÑƒÑŽÑ‰Ð¸Ðµ Ð¿Ð¾Ð»Ñ Ñ„Ð¾Ñ€Ð¼Ñ‹
 		this->textBoxF->Text = paraxial.m_F.ToString("#.###");
 		this->textBoxF_->Text = paraxial.m_F_.ToString("#.###");
 		this->textBoxSF->Text = paraxial.m_SF.ToString("#.###");
@@ -584,9 +584,9 @@ namespace CppCLRWinFormsProject {
 		this->textBoxSH_->Text = paraxial.m_SH_.ToString("#.###");
 	}
 
-	// Íàæàòèå íà êíîïêó "Õîä ëó÷åé"
+	// ÐÐ°Ð¶Ð°Ñ‚Ð¸Ðµ Ð½Ð° ÐºÐ½Ð¾Ð¿ÐºÑƒ "Ð¥Ð¾Ð´ Ð»ÑƒÑ‡ÐµÐ¹"
 	private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
-		// Ñ÷èòûâàåì õàðàêòåðèñòèêè ëèíçû
+		// Ð¡Ñ‡Ð¸Ñ‚Ñ‹Ð²Ð°ÐµÐ¼ Ñ…Ð°Ñ€Ð°ÐºÑ‚ÐµÑ€Ð¸ÑÑ‚Ð¸ÐºÐ¸ Ð»Ð¸Ð½Ð·Ñ‹
 		double r1, r2, d, D1, D2, S, NA, SH, SH_, S_, SF_, SF;
 		r1 = System::Convert::ToDouble(this->textBoxR1->Text, System::Globalization::CultureInfo::GetCultureInfo("en-US"));
 		r2 = System::Convert::ToDouble(this->textBoxR2->Text, System::Globalization::CultureInfo::GetCultureInfo("en-US"));
@@ -598,25 +598,25 @@ namespace CppCLRWinFormsProject {
 		SF_ = System::Convert::ToDouble(this->textBoxSF_->Text, System::Globalization::CultureInfo::GetCultureInfo("ru-RU"));
 		SF = System::Convert::ToDouble(this->textBoxSF->Text, System::Globalization::CultureInfo::GetCultureInfo("ru-RU"));
 
-		// Ñ÷èòàåì óãëû äóã ïîâåðõíîñòåé ëèíçû
+		// Ð¡Ñ‡Ð¸Ñ‚Ð°ÐµÐ¼ ÑƒÐ³Ð»Ñ‹ Ð´ÑƒÐ³ Ð¿Ð¾Ð²ÐµÑ€Ñ…Ð½Ð¾ÑÑ‚ÐµÐ¹ Ð»Ð¸Ð½Ð·Ñ‹
 		double startAngle1, startAngle2;
 		startAngle1 = 180 * asin(D1 / abs(r1)) / PI;
 		startAngle2 = 180 * asin(D2 / abs(r2)) / PI;
 
-		// Ñ÷èòàåì ñòðåëêè ïðîãèáà ïîâåðõíîñòåé ëèíçû
+		// Ð¡Ñ‡Ð¸Ñ‚Ð°ÐµÐ¼ ÑÑ‚Ñ€ÐµÐ»ÐºÐ¸ Ð¿Ñ€Ð¾Ð³Ð¸Ð±Ð° Ð¿Ð¾Ð²ÐµÑ€Ñ…Ð½Ð¾ÑÑ‚ÐµÐ¹ Ð»Ð¸Ð½Ð·Ñ‹
 		double rd1, rd2;
 		rd1 = abs(r1) * cos(startAngle1 * PI / 180);
 		rd2 = abs(r2) * cos(startAngle2 * PI / 180);
 
-		// Ñîçäàåì ãðàôè÷åñêèé îáúåêò äëÿ îòðèñîâêè ëèíçû
+		// Ð¡Ð¾Ð·Ð´Ð°ÐµÐ¼ Ð³Ñ€Ð°Ñ„Ð¸Ñ‡ÐµÑÐºÐ¸Ð¹ Ð¾Ð±ÑŠÐµÐºÑ‚ Ð´Ð»Ñ Ð¾Ñ‚Ñ€Ð¸ÑÐ¾Ð²ÐºÐ¸ Ð»Ð¸Ð½Ð·Ñ‹
 		Bitmap^ bmp = gcnew Bitmap(500, 380, PixelFormat::Format32bppArgb);
 		Graphics^ grfx = Graphics::FromImage(bmp);
 		grfx->Clear(Color::White);
 
-		// Çàäàåì ìàñøòàáíûé êîýôôèöèåíò
+		// Ð—Ð°Ð´Ð°ÐµÐ¼ Ð¼Ð°ÑÑˆÑ‚Ð°Ð±Ð½Ñ‹Ð¹ ÐºÐ¾ÑÑ„Ñ„Ð¸Ñ†Ð¸ÐµÐ½Ñ‚
 		double scale = 380 * 0.7 / (2 * D1);
 
-		// Îïðåäåëÿåì ïåðüÿ è êèñòè äëÿ ãðàôèêà
+		// ÐžÐ¿Ñ€ÐµÐ´ÐµÐ»ÑÐµÐ¼ Ð¿ÐµÑ€ÑŒÑ Ð¸ ÐºÐ¸ÑÑ‚Ð¸ Ð´Ð»Ñ Ð³Ñ€Ð°Ñ„Ð¸ÐºÐ°
 		Pen^ blackPen = gcnew Pen(Color::Black, 2.5f);
 		Pen^ blackPenSm = gcnew Pen(Color::Black, 1.0f);
 		Pen^ bluePen = gcnew Pen(Color::Blue, 2.0f);
@@ -625,21 +625,21 @@ namespace CppCLRWinFormsProject {
 		SolidBrush^ blueBrush = gcnew SolidBrush(Color::FromArgb(225, 204, 204, 255));
 		System::Drawing::Font^ drawFont = gcnew System::Drawing::Font("Verdana", 8);
 
-		// Íà÷èíàåì ôîðìèðîâàòü êîíòóð ëèíçû
+		// ÐÐ°Ñ‡Ð¸Ð½Ð°ÐµÐ¼ Ñ„Ð¾Ñ€Ð¼Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ ÐºÐ¾Ð½Ñ‚ÑƒÑ€ Ð»Ð¸Ð½Ð·Ñ‹
 		GraphicsPath^ lensContour = gcnew GraphicsPath();
 
 		System::Drawing::Region^ lensRegion = gcnew System::Drawing::Region(lensContour);
 
-		// Ðèñóåì îïòè÷åñêóþ îñü
+		// Ð Ð¸ÑÑƒÐµÐ¼ Ð¾Ð¿Ñ‚Ð¸Ñ‡ÐµÑÐºÑƒÑŽ Ð¾ÑÑŒ
 		grfx->DrawLine(dashDotPen, 10, 190, 490, 190);
 
 		
-		// Ðèñóåì ïåðâóþ ïîâåðõíîñòü
+		// Ð Ð¸ÑÑƒÐµÐ¼ Ð¿ÐµÑ€Ð²ÑƒÑŽ Ð¿Ð¾Ð²ÐµÑ€Ñ…Ð½Ð¾ÑÑ‚ÑŒ
 		Rectangle rectR1 = Rectangle(250 - scale * (d / 2 + (r1 > 0 ? 0 : 2) * abs(r1)), 190 - scale * abs(r1), scale * abs(r1) * 2, scale * abs(r1) * 2);
 		lensContour->AddArc(rectR1, (r1 > 0 ? 0.5 : 1) * 360 - startAngle1, 2 * startAngle1);
 
 		if (r1 > 0) {
-			// Ðèñóåì âåðõíèé òîðåö
+			// Ð Ð¸ÑÑƒÐµÐ¼ Ð²ÐµÑ€Ñ…Ð½Ð¸Ð¹ Ñ‚Ð¾Ñ€ÐµÑ†
 			if (D1 == D2) {
 				Point p1((250 - scale * (d / 2) + scale * (abs(r1) - rd1)), 190 - scale * D1);
 				Point p2(250 + scale * (d / 2) - (r2 > 0 ? -1 : 1) * scale * (abs(r2) - rd2), 190 - scale * D2);
@@ -656,7 +656,7 @@ namespace CppCLRWinFormsProject {
 				grfx->DrawPath(blackPen, lensContour);
 				GraphicsPath^ lensContour2 = gcnew GraphicsPath();
 
-				// Ðèñóåì íèæíèé òîðåö
+				// Ð Ð¸ÑÑƒÐµÐ¼ Ð½Ð¸Ð¶Ð½Ð¸Ð¹ Ñ‚Ð¾Ñ€ÐµÑ†
 				if (D1 == D2) {
 					Point p3((250 - scale * (d / 2) + scale * (abs(r1) - rd1)), 190 + scale * D1);
 					Point p4(250 + scale * (d / 2) + scale * (abs(r2) - rd2), 190 + scale * D2);
@@ -671,7 +671,7 @@ namespace CppCLRWinFormsProject {
 
 				}
 
-				// Ðèñóåì âòîðóþ ïîâåðõíîñòü
+				// Ð Ð¸ÑÑƒÐµÐ¼ Ð²Ñ‚Ð¾Ñ€ÑƒÑŽ Ð¿Ð¾Ð²ÐµÑ€Ñ…Ð½Ð¾ÑÑ‚ÑŒ
 				Rectangle rectR2 = Rectangle((250 + scale * (d / 2 - (r2 > 0 ? 0 : 2) * abs(r2))), 190 - scale * abs(r2), scale * abs(r2) * 2, scale * abs(r2) * 2);
 				lensContour2->AddArc(rectR2, (r2 > 0 ? 0.5 : 1) * 360 - startAngle2, 2 * startAngle2);
 
@@ -679,11 +679,11 @@ namespace CppCLRWinFormsProject {
 
 			}
 			else {
-				// Ðèñóåì âòîðóþ ïîâåðõíîñòü
+				// Ð Ð¸ÑÑƒÐµÐ¼ Ð²Ñ‚Ð¾Ñ€ÑƒÑŽ Ð¿Ð¾Ð²ÐµÑ€Ñ…Ð½Ð¾ÑÑ‚ÑŒ
 				Rectangle rectR2 = Rectangle((250 + scale * (d / 2 - (r2 > 0 ? 0 : 2) * abs(r2))), 190 - scale * abs(r2), scale * abs(r2) * 2, scale * abs(r2) * 2);
 				lensContour->AddArc(rectR2, (r2 > 0 ? 0.5 : 1) * 360 - startAngle2, 2 * startAngle2);
 
-				// Ðèñóåì íèæíèé òîðåö
+				// Ð Ð¸ÑÑƒÐµÐ¼ Ð½Ð¸Ð¶Ð½Ð¸Ð¹ Ñ‚Ð¾Ñ€ÐµÑ†
 				if (D1 == D2) {
 					Point p3(250 - scale * (d / 2) + scale * (abs(r1) - rd1), 190 + scale * D1);
 					Point p4(250 + scale * (d / 2) - scale * (abs(r2) - rd2), 190 + scale * D2);
@@ -700,7 +700,7 @@ namespace CppCLRWinFormsProject {
 			}
 		}
 		else {
-			// Ðèñóåì íèæíèé òîðåö
+			// Ð Ð¸ÑÑƒÐµÐ¼ Ð½Ð¸Ð¶Ð½Ð¸Ð¹ Ñ‚Ð¾Ñ€ÐµÑ†
 			if (D1 == D2) {
 				Point p3((250 - scale * (d / 2) + scale * (abs(r1) - rd1)), 190 + scale * D1);
 				Point p4(250 + scale * (d / 2) - scale * (abs(r2) - rd2), 190 + scale * D2);
@@ -716,11 +716,11 @@ namespace CppCLRWinFormsProject {
 			}
 
 			if (r2 > 0) {
-				// Ðèñóåì âòîðóþ ïîâåðõíîñòü
+				// Ð Ð¸ÑÑƒÐµÐ¼ Ð²Ñ‚Ð¾Ñ€ÑƒÑŽ Ð¿Ð¾Ð²ÐµÑ€Ñ…Ð½Ð¾ÑÑ‚ÑŒ
 				Rectangle rectR2 = Rectangle((250 + scale * (d / 2 - (r2 > 0 ? 0 : 2) * abs(r2))), 190 - scale * abs(r2), scale * abs(r2) * 2, scale * abs(r2) * 2);
 				lensContour->AddArc(rectR2, (r2 > 0 ? 0.5 : 1) * 360 - startAngle2, 2 * startAngle2);
 
-				// Ðèñóåì âåðõíèé òîðåö
+				// Ð Ð¸ÑÑƒÐµÐ¼ Ð²ÐµÑ€Ñ…Ð½Ð¸Ð¹ Ñ‚Ð¾Ñ€ÐµÑ†
 				if (D1 == D2) {
 					Point p1((250 - scale * (d / 2) - scale * (abs(r1) - rd1)), 190 - scale * D1);
 					Point p2(250 + scale * (d / 2) - scale * (abs(r2) - rd2), 190 - scale * D2);
@@ -737,7 +737,7 @@ namespace CppCLRWinFormsProject {
 				grfx->DrawPath(blackPen, lensContour);
 				GraphicsPath^ lensContour2 = gcnew GraphicsPath();
 
-				// Ðèñóåì âåðõíèé òîðåö
+				// Ð Ð¸ÑÑƒÐµÐ¼ Ð²ÐµÑ€Ñ…Ð½Ð¸Ð¹ Ñ‚Ð¾Ñ€ÐµÑ†
 				if (D1 == D2) {
 					Point p1((250 - scale * (d / 2) - scale * (abs(r1) - rd1)), 190 - scale * D1);
 					Point p2(250 + scale * (d / 2) - scale * (abs(r2) - rd2), 190 - scale * D2);
@@ -750,7 +750,7 @@ namespace CppCLRWinFormsProject {
 
 				}
 
-				// Ðèñóåì âòîðóþ ïîâåðõíîñòü
+				// Ð Ð¸ÑÑƒÐµÐ¼ Ð²Ñ‚Ð¾Ñ€ÑƒÑŽ Ð¿Ð¾Ð²ÐµÑ€Ñ…Ð½Ð¾ÑÑ‚ÑŒ
 				Rectangle rectR2 = Rectangle((250 + scale * (d / 2 - (r2 > 0 ? 0 : 2) * abs(r2))), 190 - scale * abs(r2), scale * abs(r2) * 2, scale * abs(r2) * 2);
 				lensContour2->AddArc(rectR2, (r2 > 0 ? 0.5 : 1) * 360 - startAngle2, 2 * startAngle2);
 
@@ -759,33 +759,33 @@ namespace CppCLRWinFormsProject {
 			}
 		}
 
-		// Çàïóñêàåì îòðèñîâêó ãðàôèêè è çàêðàøèâàåì ëèíçó
+		// Ð—Ð°Ð¿ÑƒÑÐºÐ°ÐµÐ¼ Ð¾Ñ‚Ñ€Ð¸ÑÐ¾Ð²ÐºÑƒ Ð³Ñ€Ð°Ñ„Ð¸ÐºÐ¸ Ð¸ Ð·Ð°ÐºÑ€Ð°ÑˆÐ¸Ð²Ð°ÐµÐ¼ Ð»Ð¸Ð½Ð·Ñƒ
 		grfx->DrawPath(blackPen, lensContour);
 		lensRegion->Complement(lensContour);
 		grfx->FillRegion(blueBrush, lensRegion);
 
-		// Ðèñóåì ïåðâóþ ãëàâíóþ ïëîñêîñòü
+		// Ð Ð¸ÑÑƒÐµÐ¼ Ð¿ÐµÑ€Ð²ÑƒÑŽ Ð³Ð»Ð°Ð²Ð½ÑƒÑŽ Ð¿Ð»Ð¾ÑÐºÐ¾ÑÑ‚ÑŒ
 		Point h1(250 - scale * (d / 2 - SH), 190 - scale * (D1 + 15));
 		Point h2(250 - scale * (d / 2 - SH), 190 + scale * (D2 + 15));
 		grfx->DrawLine(blackPenSm, h1, h2);
 
-		// Ðèñóåì âòîðóþ ãëàâíóþ ïëîñêîñòü
+		// Ð Ð¸ÑÑƒÐµÐ¼ Ð²Ñ‚Ð¾Ñ€ÑƒÑŽ Ð³Ð»Ð°Ð²Ð½ÑƒÑŽ Ð¿Ð»Ð¾ÑÐºÐ¾ÑÑ‚ÑŒ
 		Point h3(250 + scale * (d / 2 + SH_), 190 - scale * (D1 + 15));
 		Point h4(250 + scale * (d / 2 + SH_), 190 + scale * (D2 + 15));
 		grfx->DrawLine(blackPenSm, h3, h4);
 
-		// Ðèñóåì ëó÷ äî ëèíçû
+		// Ð Ð¸ÑÑƒÐµÐ¼ Ð»ÑƒÑ‡ Ð´Ð¾ Ð»Ð¸Ð½Ð·Ñ‹
 		Point rayP1(250 - scale * (d / 2 + 30), 190 - scale * (D1 - 5));
 		Point rayP2(250 - scale * (d / 2 - SH), 190 - scale * (D1 - 5));
 		grfx->DrawLine(bluePen, rayP1, rayP2);
 
-		// Ðèñóåì ëó÷ ïîñëå ëèíçû
+		// Ð Ð¸ÑÑƒÐµÐ¼ Ð»ÑƒÑ‡ Ð¿Ð¾ÑÐ»Ðµ Ð»Ð¸Ð½Ð·Ñ‹
 		Point rayP3(250 + scale * (d / 2 + SH_), 190 - scale * (D1 - 5));
 		Point rayP4(250 + scale * (d / 2 + SF_), 190);
 		grfx->DrawLine(bluePen, rayP2, rayP3);
 		grfx->DrawLine(bluePen, rayP3, rayP4);
 
-		// Îòîáðàæåíèå èçîáðàæåíèÿ â ôîðìå
+		// ÐžÑ‚Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ðµ Ð¸Ð·Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ñ Ð² Ñ„Ð¾Ñ€Ð¼Ðµ
 		pictureBox1->Image = bmp;
 	}
 	};

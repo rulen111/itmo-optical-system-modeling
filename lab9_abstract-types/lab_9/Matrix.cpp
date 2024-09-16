@@ -1,16 +1,16 @@
 /////////////////////////////////////////////////////////////////////////////
-// Прикладное программирование
-// Обявление, определение и реализация абстрактных типов данных.Перегрузка операторов.
+// РџСЂРёРєР»Р°РґРЅРѕРµ РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРµ
+// РћР±СЏРІР»РµРЅРёРµ, РѕРїСЂРµРґРµР»РµРЅРёРµ Рё СЂРµР°Р»РёР·Р°С†РёСЏ Р°Р±СЃС‚СЂР°РєС‚РЅС‹С… С‚РёРїРѕРІ РґР°РЅРЅС‹С….РџРµСЂРµРіСЂСѓР·РєР° РѕРїРµСЂР°С‚РѕСЂРѕРІ.
 // matrix.cpp
 // 
-// Ахмаров Руслан
-// Университет ИТМО, B34003
+// РђС…РјР°СЂРѕРІ Р СѓСЃР»Р°РЅ
+// РЈРЅРёРІРµСЂСЃРёС‚РµС‚ РРўРњРћ, B34003
 /////////////////////////////////////////////////////////////////////////////
-// подключение описания класса
+// РїРѕРґРєР»СЋС‡РµРЅРёРµ РѕРїРёСЃР°РЅРёСЏ РєР»Р°СЃСЃР°
 #include "matrix.h"
 
 /////////////////////////////////////////////////////////////////////////////
-// Конструктор по умолчанию
+// РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
 template <class TYPE>
 Matrix<TYPE>::Matrix() {
 	m_rows = 1;
@@ -25,7 +25,7 @@ Matrix<TYPE>::Matrix() {
 	}
 }
 /////////////////////////////////////////////////////////////////////////////
-// Полный конструктор
+// РџРѕР»РЅС‹Р№ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
 template <class TYPE>
 Matrix<TYPE>::Matrix(int rows, int cols) {
 	m_rows = rows;
@@ -40,7 +40,7 @@ Matrix<TYPE>::Matrix(int rows, int cols) {
 	}
 }
 /////////////////////////////////////////////////////////////////////////////
-// Конструктор копирования
+// РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РєРѕРїРёСЂРѕРІР°РЅРёСЏ
 template <class TYPE>
 Matrix<TYPE>::Matrix(const Matrix<TYPE>& one) {
 	m_rows = one.getRows();
@@ -55,7 +55,7 @@ Matrix<TYPE>::Matrix(const Matrix<TYPE>& one) {
 	}
 }
 /////////////////////////////////////////////////////////////////////////////
-// Деструктор
+// Р”РµСЃС‚СЂСѓРєС‚РѕСЂ
 template <class TYPE>
 Matrix<TYPE>::~Matrix() {
 	for (int i = m_rows - 1; i >= 0; i--) {
@@ -64,7 +64,7 @@ Matrix<TYPE>::~Matrix() {
 	delete[] m_arr;
 }
 /////////////////////////////////////////////////////////////////////////////
-// Получение единичной матрицы
+// РџРѕР»СѓС‡РµРЅРёРµ РµРґРёРЅРёС‡РЅРѕР№ РјР°С‚СЂРёС†С‹
 template <class TYPE>
 Matrix<TYPE> Matrix<TYPE>::getUnitM(int rows, int cols) {
 	Matrix<TYPE> resArr(rows, cols);
@@ -83,37 +83,37 @@ Matrix<TYPE> Matrix<TYPE>::getUnitM(int rows, int cols) {
 	return resArr;
 }
 /////////////////////////////////////////////////////////////////////////////
-// Селектор значения элемента матрицы
+// РЎРµР»РµРєС‚РѕСЂ Р·РЅР°С‡РµРЅРёСЏ СЌР»РµРјРµРЅС‚Р° РјР°С‚СЂРёС†С‹
 template <class TYPE>
 TYPE Matrix<TYPE>::getValue(int i, int j) const {
 	return m_arr[i][j];
 }
 /////////////////////////////////////////////////////////////////////////////
-// Модификатор элемента матрицы
+// РњРѕРґРёС„РёРєР°С‚РѕСЂ СЌР»РµРјРµРЅС‚Р° РјР°С‚СЂРёС†С‹
 template <class TYPE>
 void Matrix<TYPE>::setValue(int i, int j, TYPE val) {
 	m_arr[i][j] = val;
 }
 /////////////////////////////////////////////////////////////////////////////
-// Селектор количества строк
+// РЎРµР»РµРєС‚РѕСЂ РєРѕР»РёС‡РµСЃС‚РІР° СЃС‚СЂРѕРє
 template <class TYPE>
 int Matrix<TYPE>::getRows() const {
 	return m_rows;
 }
 /////////////////////////////////////////////////////////////////////////////
-// Селектор количества столбцов
+// РЎРµР»РµРєС‚РѕСЂ РєРѕР»РёС‡РµСЃС‚РІР° СЃС‚РѕР»Р±С†РѕРІ
 template <class TYPE>
 int Matrix<TYPE>::getCols() const {
 	return m_cols;
 }
 /////////////////////////////////////////////////////////////////////////////
-// Проверка равенства размеров матриц
+// РџСЂРѕРІРµСЂРєР° СЂР°РІРµРЅСЃС‚РІР° СЂР°Р·РјРµСЂРѕРІ РјР°С‚СЂРёС†
 template <class TYPE>
 bool Matrix<TYPE>::eqSize(const Matrix<TYPE>& other) {
 	return ((this->getRows() == other.getRows()) && (this->getCols() == other.getCols()));
 }
 /////////////////////////////////////////////////////////////////////////////
-// Умножение матрицы на число
+// РЈРјРЅРѕР¶РµРЅРёРµ РјР°С‚СЂРёС†С‹ РЅР° С‡РёСЃР»Рѕ
 template <class TYPE>
 Matrix<TYPE> Matrix<TYPE>::operator*(const TYPE& other) const {
 	Matrix<TYPE> resArr(*this);
@@ -127,7 +127,7 @@ Matrix<TYPE> Matrix<TYPE>::operator*(const TYPE& other) const {
 	return resArr;
 }
 /////////////////////////////////////////////////////////////////////////////
-// Умножение матрицы на число с присваиванием
+// РЈРјРЅРѕР¶РµРЅРёРµ РјР°С‚СЂРёС†С‹ РЅР° С‡РёСЃР»Рѕ СЃ РїСЂРёСЃРІР°РёРІР°РЅРёРµРј
 template <class TYPE>
 Matrix<TYPE> Matrix<TYPE>::operator*=(const TYPE& other) {
 	Matrix<TYPE> temp(*this);
@@ -141,7 +141,7 @@ Matrix<TYPE> Matrix<TYPE>::operator*=(const TYPE& other) {
 	return (*this);
 }
 /////////////////////////////////////////////////////////////////////////////
-// Умножение матрицы на матрицу
+// РЈРјРЅРѕР¶РµРЅРёРµ РјР°С‚СЂРёС†С‹ РЅР° РјР°С‚СЂРёС†Сѓ
 template <class TYPE>
 Matrix<TYPE> Matrix<TYPE>::operator*(const Matrix<TYPE>& other) const {
 	if (this->getCols() == other.getRows()) {
@@ -160,13 +160,13 @@ Matrix<TYPE> Matrix<TYPE>::operator*(const Matrix<TYPE>& other) const {
 		return resArr;
 	}
 	else {
-		cout << "Размеры матриц не соответствуют условиям умножения матриц!" << endl;
+		cout << "Р Р°Р·РјРµСЂС‹ РјР°С‚СЂРёС† РЅРµ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‚ СѓСЃР»РѕРІРёСЏРј СѓРјРЅРѕР¶РµРЅРёСЏ РјР°С‚СЂРёС†!" << endl;
 		Matrix<TYPE> zero;
 		return zero;
 	}
 }
 /////////////////////////////////////////////////////////////////////////////
-// Проверка полного равенства матриц
+// РџСЂРѕРІРµСЂРєР° РїРѕР»РЅРѕРіРѕ СЂР°РІРµРЅСЃС‚РІР° РјР°С‚СЂРёС†
 template <class TYPE>
 bool Matrix<TYPE>::operator== (const Matrix<TYPE>& other) const {
 	if ((this->getRows() == other.getRows()) && (this->getCols() == other.getCols())) {
@@ -184,12 +184,12 @@ bool Matrix<TYPE>::operator== (const Matrix<TYPE>& other) const {
 		return true;
 	}
 	else {
-		cout << "Размеры матриц не равны!" << endl;
+		cout << "Р Р°Р·РјРµСЂС‹ РјР°С‚СЂРёС† РЅРµ СЂР°РІРЅС‹!" << endl;
 		return false;
 	}
 }
 /////////////////////////////////////////////////////////////////////////////
-// Проверка полного неравенства матриц
+// РџСЂРѕРІРµСЂРєР° РїРѕР»РЅРѕРіРѕ РЅРµСЂР°РІРµРЅСЃС‚РІР° РјР°С‚СЂРёС†
 template <class TYPE>
 bool Matrix<TYPE>::operator!= (const Matrix<TYPE>& other) const {
 	if ((this->getRows() == other.getRows()) && (this->getCols() == other.getCols())) {
@@ -207,12 +207,12 @@ bool Matrix<TYPE>::operator!= (const Matrix<TYPE>& other) const {
 		return false;
 	}
 	else {
-		cout << "Размеры матриц не равны!" << endl;
+		cout << "Р Р°Р·РјРµСЂС‹ РјР°С‚СЂРёС† РЅРµ СЂР°РІРЅС‹!" << endl;
 		return true;
 	}
 }
 /////////////////////////////////////////////////////////////////////////////
-// Копирование матриц
+// РљРѕРїРёСЂРѕРІР°РЅРёРµ РјР°С‚СЂРёС†
 template <class TYPE>
 Matrix<TYPE> Matrix<TYPE>::operator=(const Matrix<TYPE>& other) {
 	if ((this->getRows() == other.getRows()) && (this->getCols() == other.getCols())) {
@@ -225,18 +225,18 @@ Matrix<TYPE> Matrix<TYPE>::operator=(const Matrix<TYPE>& other) {
 		return (*this);
 	}
 	else {
-		cout << "Размеры матриц не равны!" << endl;
+		cout << "Р Р°Р·РјРµСЂС‹ РјР°С‚СЂРёС† РЅРµ СЂР°РІРЅС‹!" << endl;
 		return (*this);
 	}
 }
 /////////////////////////////////////////////////////////////////////////////
-// Индексированный доступ к элементам
+// РРЅРґРµРєСЃРёСЂРѕРІР°РЅРЅС‹Р№ РґРѕСЃС‚СѓРї Рє СЌР»РµРјРµРЅС‚Р°Рј
 template <class TYPE>
 TYPE Matrix<TYPE>::operator()(int i, int j) const {
 	return this->getValue(i - 1, j - 1);
 }
 /////////////////////////////////////////////////////////////////////////////
-// Вывод матрицы на экран
+// Р’С‹РІРѕРґ РјР°С‚СЂРёС†С‹ РЅР° СЌРєСЂР°РЅ
 template <class TYPE>
 ostream& operator<< (ostream& out, const Matrix<TYPE>& one) {
 	for (int i = 0; i < one.getRows(); i++) {
@@ -249,7 +249,7 @@ ostream& operator<< (ostream& out, const Matrix<TYPE>& one) {
 	return out;
 }
 /////////////////////////////////////////////////////////////////////////////
-// Ввод матрицы с клавиатуры
+// Р’РІРѕРґ РјР°С‚СЂРёС†С‹ СЃ РєР»Р°РІРёР°С‚СѓСЂС‹
 template <class TYPE>
 istream& operator>> (istream& in, Matrix<TYPE>& one) {
 	TYPE val = 0;
