@@ -1,1 +1,1 @@
-# lab1_lin-dev
+# itmo-optical-system-modeling
